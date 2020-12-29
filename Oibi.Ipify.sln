@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oibi.Ipify", "Oibi.Ipify\Oibi.Ipify.csproj", "{BB709028-B8FB-4FFD-9666-DCF9885EEC2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oibi.Ipify.XUnitTest", "Oibi.Ipify.XUnitTest\Oibi.Ipify.XUnitTest.csproj", "{CEFCA03E-581D-43E7-8A99-2ACDAED1A48A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB709028-B8FB-4FFD-9666-DCF9885EEC2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB709028-B8FB-4FFD-9666-DCF9885EEC2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB709028-B8FB-4FFD-9666-DCF9885EEC2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB709028-B8FB-4FFD-9666-DCF9885EEC2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEFCA03E-581D-43E7-8A99-2ACDAED1A48A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEFCA03E-581D-43E7-8A99-2ACDAED1A48A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEFCA03E-581D-43E7-8A99-2ACDAED1A48A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEFCA03E-581D-43E7-8A99-2ACDAED1A48A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB093154-2590-44F2-B5D5-A8D660A916D2}
+	EndGlobalSection
+EndGlobal
