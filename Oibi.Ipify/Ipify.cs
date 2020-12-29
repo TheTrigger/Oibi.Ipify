@@ -20,7 +20,7 @@ namespace Oibi.Ipify
 		/// <exception cref="System.Net.Http.HttpRequestException"/>
 		public static async Task<string> GetPublicRawIPAsync(CancellationToken cancellationToken = default)
 		{
-			var response = await _httpClient.GetAsync(requestUri: _ipv64endPoint, cancellationToken: cancellationToken);
+			using var response = await _httpClient.GetAsync(requestUri: _ipv64endPoint, cancellationToken: cancellationToken);
 			response.EnsureSuccessStatusCode();
 			return await response.Content.ReadAsStringAsync();
 		}
